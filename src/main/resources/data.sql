@@ -1,9 +1,9 @@
-CREATE TABLE conta
+/*CREATE TABLE conta
 (
     id_conta IDENTITY NOT NULL PRIMARY KEY,
     nome_responsavel VARCHAR(50) NOT NULL
 );
-
+l
 
 CREATE TABLE transferencia
 (
@@ -17,7 +17,7 @@ CREATE TABLE transferencia
         CONSTRAINT FK_CONTA
         FOREIGN KEY (conta_id)
         REFERENCES conta(id_conta)
-);
+);*/
 
 INSERT INTO conta (id_conta, nome_responsavel) VALUES (1,'Fulano');
 INSERT INTO conta (id_conta, nome_responsavel) VALUES (2,'Sicrano');
